@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tailwind CLI</title>
+  </head>
+  <body>
+    <div class="h-screen w-screen overflow-auto">
+      <div
+        class="py-2 px-8 hidden sm:flex items-center justify-between bg-white w-full fixed z-40 top-0 border-b"
+      >
+        <div class="text-sm sm:text-lg font-medium">LEKHA</div>
+        <div class="flex space-x-4 items-center">
+          <div class="text-sm">Features</div>
+          <div class="text-sm">Contact</div>
+          <div class="text-sm">Log In</div>
+          <button
+            type="button"
+            class="w-auto text-sm inline-flex justify-center px-4 py-2 bg-lblue hover:bg-black text-white"
+            onclick=""
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div
+        class="py-2 px-8 flex sm:hidden items-center justify-between bg-white w-full fixed z-40 top-0 border-b"
+      >
+        <div class="text-sm sm:text-lg font-medium">LEKHA</div>
+        <div class="flex space-x-4">
+          <button
+            type="button"
+            class="w-auto text-sm inline-flex justify-center px-4 py-2 bg-lblue hover:bg-black text-white"
+            onclick=""
+          >
+            Get Started
+          </button>
+          <button id="nav-toggle" class="flex items-center">
+            <svg
+              class="fill-gray-900 h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
